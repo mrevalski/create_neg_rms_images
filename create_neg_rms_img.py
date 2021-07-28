@@ -101,7 +101,7 @@ def create_neg_rms_img(sci_img, wht_img, neg_out, rms_out, fix_nan, fix_inf, set
         neg_hdul = fits.open(neg_out)
         rms_hdul = fits.open(rms_out)
 
-        # Write only the first extension for Source Extractor.
+        # Write only the first extension for Source Extractor
         fits.writeto(sci_img, sci_hdul[0].data, sci_hdul[0].header, overwrite=True)
         fits.writeto(wht_img, wht_hdul[0].data, wht_hdul[0].header, overwrite=True)
         fits.writeto(neg_out, neg_hdul[0].data, neg_hdul[0].header, overwrite=True)
