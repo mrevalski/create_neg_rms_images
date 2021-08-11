@@ -13,3 +13,5 @@ The basic call sequence where the first four arguments are replaced with your co
 `python -c "import create_neg_rms_img; create_neg_rms_img.create_neg_rms_img('sci_img', 'wht_img', 'neg_out', 'rms_out', True, True, False)"`
 
 Please send questions, comments, and suggestions to [Mitchell Revalski](https://www.mitchellrevalski.com). Thank you, and have a nice day!
+
+Mitchell Revalski gratefully acknowledges Laura Prichard and Marc Rafelski for helping to improve this code.
