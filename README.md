@@ -15,3 +15,5 @@ The basic call sequence where the first four arguments are replaced with your co
 Please send questions, comments, and suggestions to [Mitchell Revalski](https://www.mitchellrevalski.com). Thank you, and have a nice day!
 
 Mitchell Revalski gratefully acknowledges Laura Prichard and Marc Rafelski for helping to improve this code.
+
+[![DOI](https://zenodo.org/badge/390474392.svg)](https://zenodo.org/badge/latestdoi/390474392)
