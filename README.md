@@ -1,6 +1,10 @@
 # create_neg_rms_images
 
-Jupyter Notebook that calculates RMS and NEG images from user-supplied SCI and WHT drizzles.
+[![DOI](https://zenodo.org/badge/390474392.svg)](https://zenodo.org/badge/latestdoi/390474392)
+
+A Jupyter Notebook that calculates RMS and NEG images from user-supplied SCI and WHT drizzles.
+
+Please cite [Revalski et al. 2023, ApJS, 265, 40](https://ui.adsabs.harvard.edu/abs/2023ApJS..265...40R/abstract) and [this Zenodo DOI](https://ui.adsabs.harvard.edu/abs/2022zndo...7458442R/abstract) when publishing results that used this code.
 
 This Jupyter Notebook was created by Dr. Mitchell Revalski to generate negative (NEG) and root-mean-square (RMS) images from user-supplied Hubble Space Telescope (HST) Wide Field Camera 3 (WFC3) science (SCI) and inverse variance weight map (WHT) drizzles that were produced with [DrizzlePac's](https://www.stsci.edu/scientific-community/software/drizzlepac.html) [AstroDrizzle](https://drizzlepac.readthedocs.io/en/latest/astrodrizzle.html) software. These images are useful for determining detection thresholds and estimating noise properties when measuring the photometry of objects in the SCI image with [Source Extractor](https://www.astromatic.net/software/sextractor/) and similar codes. The code is specifically designed to use WHT maps that were generated with `final_wht_type='IVM'`.
 
@@ -15,5 +19,3 @@ The basic call sequence where the first four arguments are replaced with your co
 Please send questions, comments, and suggestions to [Mitchell Revalski](https://www.mitchellrevalski.com). Thank you, and have a nice day!
 
 Mitchell Revalski gratefully acknowledges Laura Prichard and Marc Rafelski for helping to improve this code.
-
-[![DOI](https://zenodo.org/badge/390474392.svg)](https://zenodo.org/badge/latestdoi/390474392)
